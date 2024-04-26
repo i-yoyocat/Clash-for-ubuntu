@@ -2,24 +2,7 @@
 
 A clash application for the ubuntu system.
 
-Linux系统上挂代理（高手可绕道～，不喜误喷谢谢）
-
-一共分为以下十一步：
-
-1.下载Clash的Linux版本，网址：https://github.com/Dreamacro/clash/releases（或者直接下载该仓库，里面包含目前2022年12月份最新的Releases发行版本：clash-linux-amd64-v1.13.0.gz）
-
-  打开网址会发现有一个386的版本，一个V3-的版本，其中386可以看作是x86位。
-  
-  或者通过terminal终端利用wget链接下载：wget https://github.com/Dreamacro/clash/releases/download/v1.13.0/clash-linux-amd64-v1.13.0.gz
-  
-2.在Dowload文件夹中找到该文件并进行解压，这里推荐用终端中的gzip -d 命令进行解压，不推荐直接右键click Extract Here
-
-  gzip -d clash-linux-amd64-v1.13.0.gz
-  
-  继续在终端输入chmod +x clash-linux-amd64-v1.13.0对该文件赋予可被执行的权限，否则在后面move的过程中可能会报错... 
-  
-  PS：双击或右键解压文件名可能为clash-linux-amd64
-  
+Linux系统上挂代理
 3.使用命令移动文件到全局访问的目录：sudo mv clash-linux-amd64-v1.13.0 /usr/local/bin,方便进行全局访问
 
   在这里需要注意：更改文件名为clash（第4步要说到）
